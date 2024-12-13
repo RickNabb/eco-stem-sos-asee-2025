@@ -1,0 +1,106 @@
+lavaan 0.6-19 ended normally after 32 iterations
+
+  Estimator                                         ML
+  Optimization method                           NLMINB
+  Number of model parameters                        34
+
+  Number of observations                           116
+
+Model Test User Model:
+
+  Test statistic                               343.438
+  Degrees of freedom                               119
+  P-value (Chi-square)                           0.000
+
+Model Test Baseline Model:
+
+  Test statistic                              1636.782
+  Degrees of freedom                               136
+  P-value                                        0.000
+
+User Model versus Baseline Model:
+
+  Comparative Fit Index (CFI)                    0.850
+  Tucker-Lewis Index (TLI)                       0.829
+
+Loglikelihood and Information Criteria:
+
+  Loglikelihood user model (H0)              -2362.289
+  Loglikelihood unrestricted model (H1)             NA
+
+  Akaike (AIC)                                4792.579
+  Bayesian (BIC)                              4886.201
+  Sample-size adjusted Bayesian (SABIC)       4778.728
+
+Root Mean Square Error of Approximation:
+
+  RMSEA                                          0.128
+  90 Percent confidence interval - lower         0.112
+  90 Percent confidence interval - upper         0.143
+  P-value H_0: RMSEA <= 0.050                    0.000
+  P-value H_0: RMSEA >= 0.080                    1.000
+
+Standardized Root Mean Square Residual:
+
+  SRMR                                           0.290
+
+Parameter Estimates:
+
+  Standard errors                             Standard
+  Information                                 Expected
+  Information saturated (h1) model          Structured
+
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all      
+  climate =~
+    Q1_1              0.668    0.123    5.410    0.000    0.668    0.521      
+    Q1_2              0.721    0.091    7.913    0.000    0.721    0.716      
+    Q1_3              0.451    0.088    5.117    0.000    0.451    0.496
+    Q1_4              0.845    0.102    8.246    0.000    0.845    0.740      
+    Q1_5              0.914    0.114    8.045    0.000    0.914    0.725      
+  structure =~
+    Q5_1              0.718    0.061   11.737    0.000    0.718    0.874      
+    Q5_2              0.712    0.058   12.316    0.000    0.712    0.899      
+    Q5_3              0.726    0.065   11.179    0.000    0.726    0.848
+    Q5_4              0.948    0.086   11.052    0.000    0.948    0.842      
+    Q5_5              0.974    0.089   11.005    0.000    0.974    0.839      
+  vibrancy =~
+    Q10_1             1.113    0.107   10.391    0.000    1.113    0.806      
+    Q10_2             1.101    0.097   11.366    0.000    1.101    0.854      
+    Q10_3             1.036    0.113    9.180    0.000    1.036    0.740
+    Q10_4             1.125    0.096   11.763    0.000    1.125    0.872      
+    Q10_5             0.833    0.068   12.287    0.000    0.833    0.895      
+    Q10_6             1.078    0.092   11.656    0.000    1.078    0.867
+    Q10_7             1.135    0.102   11.162    0.000    1.135    0.844      
+
+Covariances:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  climate ~~
+    structure         0.000                               0.000    0.000      
+    vibrancy          0.000                               0.000    0.000
+  structure ~~
+    vibrancy          0.000                               0.000    0.000      
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+   .Q1_1              1.198    0.174    6.907    0.000    1.198    0.729      
+   .Q1_2              0.495    0.089    5.554    0.000    0.495    0.488      
+   .Q1_3              0.623    0.089    6.996    0.000    0.623    0.754
+   .Q1_4              0.589    0.113    5.230    0.000    0.589    0.452      
+   .Q1_5              0.753    0.139    5.431    0.000    0.753    0.474      
+   .Q5_1              0.160    0.027    5.904    0.000    0.160    0.237
+   .Q5_2              0.120    0.022    5.366    0.000    0.120    0.191      
+   .Q5_3              0.206    0.033    6.268    0.000    0.206    0.281      
+   .Q5_4              0.370    0.058    6.336    0.000    0.370    0.292
+   .Q5_5              0.398    0.063    6.360    0.000    0.398    0.296
+   .Q10_1             0.668    0.098    6.843    0.000    0.668    0.350
+   .Q10_2             0.450    0.069    6.490    0.000    0.450    0.271
+   .Q10_3             0.888    0.125    7.113    0.000    0.888    0.453
+   .Q10_4             0.399    0.063    6.284    0.000    0.399    0.240
+   .Q10_5             0.172    0.029    5.923    0.000    0.172    0.199
+   .Q10_6             0.383    0.060    6.344    0.000    0.383    0.248
+   .Q10_7             0.520    0.079    6.579    0.000    0.520    0.287
+    climate           1.000                               1.000    1.000
+    structure         1.000                               1.000    1.000
+    vibrancy          1.000                               1.000    1.000
+
